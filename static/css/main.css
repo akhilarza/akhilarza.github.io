@@ -5024,16 +5024,19 @@ a img {
   margin: 5px auto;
 }
 .lprt {
+  justify-content: space-evenly;
   width: 100%;
 }
 
 .intro-image img {
+  display: inline-flex;
   float: right;
   width: 48%;
   height: 400px;
   object-fit: cover;
   object-position: 90% 25%;
   margin-left: 20px;
+  min-width: 100px;
 }
 .intro-text {
   float: left;
@@ -5115,19 +5118,34 @@ a img {
     float: left;
     width: 48%;
   }
+  .images-center {
+    width: 48%;
+  }
+  .images-center img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+  }
+  #kgp {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+  }
   .main-body {
     background-color: #dad5d5;
   }
 
   .images-left img {
-    float: left;
+    /* float: left; */
+    display: inline-block;
     background-color: #dad5d5;
     margin-top: auto;
     margin-bottom: auto;
     height: 200px;
     vertical-align: middle;
-
     object-fit: contain;
+    justify-content: center;
   }
 }
 
