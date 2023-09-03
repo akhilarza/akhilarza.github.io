@@ -22,7 +22,7 @@
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
   </head>
-  <body class="main-body">
+  <body style="background-color: #dad5d5">
     <div id="particles-js">
       <div class="header">
         <h1>
@@ -55,7 +55,7 @@
           <a
             aria-label="My Resume"
             target="_blank"
-            href="./static/CV2023FT.pdf"
+            href="./static/Documents/CV2023FT.pdf"
           >
             <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
           </a>
@@ -73,8 +73,14 @@
           <a class="link" href="#projects" data-scroll>Projects</a>
         </div>
       </div>
+
       <a class="down" href="#about" data-scroll
-        ><i class="icon fa fa-chevron-down" aria-hidden="true"></i
+        ><span class="down-text">View More</span
+        ><i
+          class="icon fa fa-chevron-down"
+          style="margin-top: 34px"
+          aria-hidden="true"
+        ></i
       ></a>
     </div>
     <section id="about">
@@ -112,7 +118,7 @@
       </div>
     </section>
 
-
+    <!-- Experience Section -->
 
     <section id="education">
       <div class="user-details">
@@ -121,7 +127,7 @@
 
       <div class="user-projects">
         <div class="images-left">
-          <div class = "images-left">
+          <div class="images-left">
             <picture>
               <source
                 type="image/webp"
@@ -134,7 +140,7 @@
               />
             </picture>
           </div>
-          <div class = "images-right">
+          <div class="images-right">
             <picture>
               <source
                 type="image/webp"
@@ -147,30 +153,34 @@
               />
             </picture>
           </div>
-            <div style="text-align: center">
-              <div style="text-align: center"> 
-                Amherst, MA</div>
-              <a style="text-align: center"
-            class="project-link"
-            target="_blank"
-            href="https://drive.google.com/file/d/1B7vBjXDRY39oB7ojTEMfW0WYsH3Fi7xC/view"
-            >Transcript</a>
-            </div>
+          <div style="text-align: center">
+            <div style="text-align: center">Amherst, MA</div>
+            <a
+              style="text-align: center"
+              class="project-link"
+              target="_blank"
+              href="./static/Documents/UM_SSR_UNOFF.pdf"
+              >Transcript</a
+            >
           </div>
+        </div>
         <div class="contents-right" style="text-align: center">
           <h3>Master of Science in Computer Science</h3>
           <h4>Sept 2022 - Jun 2024 (exp.)</h4>
           <b>GPA: 3.74 / 4.0</b>
           <p style="text-align: justify">
-          <b> • Relevant Coursework: </b> Distributed and Operating Systems, Theory and Practice of Software Engineering, Machine Learning,
-            Introduction to Computer and Network Security, Advanced Natural Processing, Systems for Data Science, Advanced Algorithms, Cloud Computing
+            <b> • Relevant Coursework: </b> Distributed and Operating Systems,
+            Theory and Practice of Software Engineering, Machine Learning,
+            Introduction to Computer and Network Security, Advanced Natural
+            Processing, Systems for Data Science, Advanced Algorithms, Cloud
+            Computing
           </p>
         </div>
       </div>
-
+      <hr />
       <div class="user-projects">
         <div class="images-left">
-          <picture id="kgp">
+          <picture id="kgp" class="f-kgp">
             <source
               type="image/webp"
               srcset="./static/img/webp/IIT_Kharagpur_Logo.webp"
@@ -181,28 +191,161 @@
               src="./static/img/jpg/IIT_Kharagpur_Logo.png"
             />
           </picture>
-          <div style="text-align: center">
-            <div style="text-align: center"> Kharagpur, India </div>
-            <a style="text-align: center"
-          class="project-link"
-          target="_blank"
-          href="https://drive.google.com/file/d/1B7vBjXDRY39oB7ojTEMfW0WYsH3Fi7xC/view"
-          >Transcript</a>
+          <div style="text-align: center; margin-top: 10px">
+            <div style="text-align: center">Kharagpur, India</div>
+            <a
+              style="text-align: center"
+              class="project-link"
+              target="_blank"
+              href="./static/Documents/Akhil_Arza_Transcript.pdf"
+              >Transcript</a
+            >
           </div>
         </div>
 
         <div class="contents-right" style="text-align: center">
-          <h3>Bachelor of Technology (Honors) and Master of Technology in Metallurgical and Materials Engineering, Minor in Artificial Intelligence and Applications</h3>
+          <h3>
+            Bachelor of Technology (Honors) and Master of Technology in
+            Metallurgical and Materials Engineering, Minor in Artificial
+            Intelligence and Applications
+          </h3>
           <h4>Aug 2017 - May 2022</h4>
-          <p style="text-align: center">
-            GPA: 8.44/10
-          </p>
+          <p style="text-align: center">GPA: 8.44/10</p>
           <p style="text-align: justify">
-            • Relevant Coursework: Algorithms and Data Structures, Computer Architecture, Computer Networks,
-            Deep Learning, Natural Language Processing, Big Data Processing, Probability, Stochastic Processes
+            • Relevant Coursework: Algorithms and Data Structures, Computer
+            Architecture, Computer Networks, Deep Learning, Natural Language
+            Processing, Big Data Processing, Probability, Stochastic Processes
           </p>
         </div>
       </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experiences">
+      <div class="user-details">
+        <h1>Professional Experience</h1>
+      </div>
+
+      <div class="user-projects">
+        <div class="images-left">
+          <picture id="intern">
+            <source
+              type="image/webp"
+              srcset="./static/img/webp/cs.webp"
+              alt="Credit Suisse"
+            />
+            <img alt="Credit Suisse" src="./static/img/jpg/cs.png" />
+          </picture>
+          <div style="text-align: center">Mumbai, India</div>
+          <div style="text-align: center">
+            <a
+              style="text-align: center"
+              class="project-link"
+              target="_blank"
+              href="./static/Documents/Akhil_Arza_Service_Certificate.pdf"
+              >Service Certificate</a
+            >
+          </div>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Quantitative Developer Intern</h3>
+          <h4>Apr 2021 - Jun 2021</h4>
+          <p style="text-align: justify">
+            • Built an interactive web tool using Shiny, JavaScript, ggplot2 for
+            the frontend to analyze and assess the expanded scenarios aiding in
+            the scenario expansion model selection task as a part of the bank’s
+            stress testing framework.
+          </p>
+          <p style="text-align: justify">
+            • Executed scenario expansion models on the backend in R programming
+            language and worked extensively in designing this tool with data
+            visualization screens, post-expansion analysis results, automated
+            model documentation functionality, etc.
+          </p>
+        </div>
+        <div></div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <h1>Projects</h1>
+      </div>
+
+      <!-- User Project #1: Personal Résumé Website -->
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="./static/img/webp/elena.webp"
+              alt="Elena"
+            />
+            <img alt="Elena" src="./static/img/jpg/elena.jpg" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>EleNa: Elevation-based Navigation System</h3>
+          <a
+            class="project-link"
+            target="_blank"
+            href="https://github.com/akhilarza/520-SWECorps"
+            >Check it out!</a
+          >
+          <p style="text-align: justify">
+            • Developed EleNa, a navigation system that optimizes routes based
+            on elevation gain using Dijkstra’s and A* algorithms.
+          </p>
+          <p style="text-align: justify">
+            • Implemented modular codebase using Python and Flask for the
+            backend, HTML, CSS, and JavaScript for the frontend.
+          </p>
+          <p style="text-align: justify">
+            • Followed the MVC architecture for achieving modularity,
+            scalability, and maintainability, ensured version control with Git,
+            and conducted unit, integration tests using PyTest to ensure high
+            reliability of the system.
+          </p>
+        </div>
+      </div>
+
+      <!-- User Project #2: Summer 2020 Project -->
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="./static/img/webp/mental-health.webp"
+              alt="NLP1"
+            />
+            <img alt="NLP1" src="./static/img/jpg/mental-health.png" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>
+            Mental Illness Identification in Reddit Posts using Transformer
+            Language Models
+          </h3>
+          <a
+            class="project-link"
+            target="_blank"
+            href="https://github.com/akhilarza/520-SWECorps"
+            >Check it out!</a
+          >
+          <p style="text-align: justify">
+            • Curated a custom dataset by scraping and pre-processing posts from
+            mental health-related subreddits and fine-tuned transformer models
+            like RoBERTa, XLNet, etc. on this dataset to detect signs of mental
+            illness from social media posts.
+          </p>
+          <p style="text-align: justify">
+            • Achieved performance improvement and competent results through
+            ensemble averaging and hyperparameter tuning.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <footer class="footer">
       <p>&copy; Aditya Vikram Singh, 2020</p>
